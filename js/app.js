@@ -1,5 +1,5 @@
 /* =========================================================
-   APP STRONG RACE · v0.1
+   APP STRONG RACE · v0.2 (fotos animadas + movilidad diaria)
    Cómo funciona, en 4 piezas:
      1. Cargamos data/plan.json con fetch()            -> init()
      2. Miramos la URL (#/semana/2 o #/sesion/2/T1)    -> router()
@@ -29,6 +29,19 @@ function diasEntre(desde, hasta) {
   return Math.round((hasta - desde) / MS_DIA);  // round evita líos con el cambio de hora
 }
 
+// Date -> "2026-11-23" (en hora local, no UTC)
+function isoLocal(fecha) {
+  const m = String(fecha.getMonth() + 1).padStart(2, '0');
+  const d = String(fecha.getDate()).padStart(2, '0');
+  return `${fecha.getFullYear()}-${m}-${d}`;
+}
+
+function sumarDias(fecha, n) {
+  return new Date(fecha.getFullYear(), fecha.getMonth(), fecha.getDate() + n);
+}
+
+const DIAS = ['L', 'M', 'X', 'J', 'V', 'S', 'D'];
+
 function fechaCorta(iso) {
   const d = parseFecha(iso);
   return `${d.getDate()} ${MESES[d.getMonth()]}`;
@@ -45,24 +58,47 @@ function semanaDeHoy() {
    localStorage guarda texto en el navegador y sobrevive aunque cierres la app.
    Va dentro de try/catch porque en algún modo privado puede fallar. */
 
-function clave(semana, idSesion) { return `hecha-${semana}-${idSesion}`; }
+// Dos tipos de "casilla": sesiones normales (una por semana) y diarias (una por día)
+const claveSesion = (semana, idSesion) => `hecha-${semana}-${idSesion}`;
+const claveDiaria = (idSesion, iso) => `diaria-${idSesion}-${iso}`;
 
-function estaHecha(semana, idSesion) {
-  try { return localStorage.getItem(clave(semana, idSesion)) === '1'; }
+function leer(clave) {
+  try { return localStorage.getItem(clave) === '1'; }
   catch { return false; }
 }
 
-function cambiarHecha(semana, idSesion) {
+function alternar(clave) {
   try {
-    if (estaHecha(semana, idSesion)) localStorage.removeItem(clave(semana, idSesion));
-    else localStorage.setItem(clave(semana, idSesion), '1');
+    if (leer(clave)) localStorage.removeItem(clave);
+    else localStorage.setItem(clave, '1');
   } catch { /* si no se puede guardar, no pasa nada */ }
+}
+
+const estaHecha = (semana, idSesion) => leer(claveSesion(semana, idSesion));
+
+// Los 7 días de una semana del plan, como puntos L M X J V S D (relleno = hecha)
+function puntosSemana(semana, idSesion) {
+  const inicio = parseFecha(semana.inicio);
+  const hoyIso = isoLocal(hoy());
+  return '<div class="puntos">' + DIAS.map((letra, i) => {
+    const iso = isoLocal(sumarDias(inicio, i));
+    const clases = [leer(claveDiaria(idSesion, iso)) ? 'lleno' : '', iso === hoyIso ? 'hoy' : ''].join(' ');
+    return `<span class="${clases}">${letra}</span>`;
+  }).join('') + '</div>';
 }
 
 /* ---------- 3. Pantallas ---------- */
 
 function claseTipo(sesion) {
-  return sesion.opcional ? 'opcional' : `tipo-${sesion.tipo}`;
+  return sesion.opcional ? 'opcional' : `tipo-${sesion.tipo}`;   // ej. "tipo-fuerza"
+}
+
+// Si hay 2 fotos (inicio y final del movimiento) las alternamos con CSS: parece un GIF
+function htmlFotos(info, nombre) {
+  if (!info.fotos || info.fotos.length === 0) return '<div class="foto">Foto pendiente</div>';
+  const imgs = info.fotos.map((src, i) =>
+    `<img class="frame-${i}" src="${src}" alt="${nombre}" loading="lazy" onerror="this.remove()">`).join('');
+  return `<div class="foto ${info.fotos.length > 1 ? 'animada' : ''}">${imgs}</div>`;
 }
 
 function renderCuentaAtras() {
@@ -81,21 +117,32 @@ function renderSemana(n) {
     ? `<div class="aviso">Empiezas en <b>${diasParaEmpezar} días</b>. Hasta entonces, caminar y algo de torso si te apetece.</div>`
     : '';
 
-  const obligatorias = semana.sesiones.filter(s => !s.opcional);
+  const normales = semana.sesiones.filter(s => !s.diaria);
+  const diarias = semana.sesiones.filter(s => s.diaria);
+  const obligatorias = normales.filter(s => !s.opcional);
   const hechas = obligatorias.filter(s => estaHecha(n, s.id)).length;
 
   // .map() convierte cada sesión en un trozo de HTML; .join('') los une
-  const tarjetas = semana.sesiones.map(s => {
+  const tarjetas = normales.map(s => {
     const hecha = estaHecha(n, s.id);
     return `
       <a class="tarjeta-sesion ${claseTipo(s)} ${hecha ? 'hecha' : ''}" href="#/sesion/${n}/${s.id}">
         <div class="info">
           <h2>${s.titulo}${s.opcional ? '<span class="etiqueta">opcional</span>' : ''}</h2>
-          <p>~${s.duracion_min}' · ${s.ejercicios.length} ejercicios</p>
+          <p>~${s.duracion_min}' · ${s.ejercicios.length} ejercicio${s.ejercicios.length === 1 ? '' : 's'}</p>
         </div>
         <div class="check">${hecha ? '✓' : ''}</div>
       </a>`;
   }).join('');
+
+  const tarjetasDiarias = diarias.map(s => `
+      <a class="tarjeta-sesion tipo-${s.tipo}" href="#/sesion/${n}/${s.id}">
+        <div class="info">
+          <h2>${s.titulo}</h2>
+          <p>~${s.duracion_min}' · ${s.ejercicios.length} ejercicios</p>
+          ${puntosSemana(semana, s.id)}
+        </div>
+      </a>`).join('');
 
   app.innerHTML = `
     <div class="nav-semana">
@@ -106,7 +153,8 @@ function renderSemana(n) {
     ${avisoInicio}
     <div class="aviso"><div class="foco">${semana.foco}</div>${semana.nota}</div>
     <p class="progreso">${hechas} de ${obligatorias.length} sesiones hechas</p>
-    ${tarjetas}`;
+    ${tarjetas}
+    ${diarias.length ? `<p class="progreso">Cada noche</p>${tarjetasDiarias}` : ''}`;
 }
 
 function renderSesion(n, idSesion) {
@@ -118,10 +166,7 @@ function renderSesion(n, idSesion) {
     const info = plan.ejercicios[ex.id];          // foto y clave técnica de la biblioteca
     return `
       <article class="ejercicio">
-        <div class="foto">
-          Foto pendiente
-          <img src="${info.foto}" alt="${ex.nombre}" loading="lazy" onerror="this.remove()">
-        </div>
+        ${htmlFotos(info, ex.nombre)}
         <div class="cuerpo">
           <h3>${ex.nombre}</h3>
           <div class="datos">
@@ -135,21 +180,26 @@ function renderSesion(n, idSesion) {
       </article>`;
   }).join('');
 
-  const hecha = estaHecha(n, idSesion);
+  // Sesión diaria -> casilla de HOY. Sesión normal -> casilla de la semana.
+  const clave = sesion.diaria ? claveDiaria(idSesion, isoLocal(hoy())) : claveSesion(n, idSesion);
+  const hecha = leer(clave);
+  const textoBoton = sesion.diaria
+    ? (hecha ? '✓ Hecha hoy (tocar para deshacer)' : 'Marcar como hecha hoy')
+    : (hecha ? '✓ Sesión hecha (tocar para deshacer)' : 'Marcar sesión como hecha');
+
   app.innerHTML = `
     <a class="volver" href="#/semana/${n}">‹ Semana ${n}</a>
     <div class="banda ${claseTipo(sesion)}">
       <h1>${sesion.titulo}</h1>
-      <p>~${sesion.duracion_min} min${sesion.opcional ? ' · opcional' : ''}</p>
+      <p>~${sesion.duracion_min} min${sesion.opcional ? ' · opcional' : ''}${sesion.diaria ? ' · cada día' : ''}</p>
+      ${sesion.diaria ? puntosSemana(semana, idSesion) : ''}
     </div>
-    ${sesion.calentamiento ? `<div class="aviso calentamiento"><b>Calentamiento:</b> ${sesion.calentamiento}</div>` : ''}
+    ${sesion.calentamiento ? `<div class="aviso calentamiento"><b>${sesion.diaria ? 'Antes de empezar' : 'Calentamiento'}:</b> ${sesion.calentamiento}</div>` : ''}
     ${ejercicios}
-    <button class="boton ${hecha ? 'hecha' : ''}" id="btn-hecha">
-      ${hecha ? '✓ Sesión hecha (tocar para deshacer)' : 'Marcar sesión como hecha'}
-    </button>`;
+    <button class="boton ${hecha ? 'hecha' : ''}" id="btn-hecha">${textoBoton}</button>`;
 
   document.getElementById('btn-hecha').addEventListener('click', () => {
-    cambiarHecha(n, idSesion);
+    alternar(clave);
     renderSesion(n, idSesion);                    // volvemos a pintar para ver el cambio
   });
 }

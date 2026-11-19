@@ -1,33 +1,7 @@
 Fotos de los ejercicios
-========================
+=======================
 
-Pon aquí una foto por ejercicio con EXACTAMENTE este nombre (en minúsculas, .jpg).
-Mejor en horizontal (16:9) y que no pese mucho (<300 KB).
-Si falta una foto, la app muestra 'Foto pendiente' y no pasa nada.
-
-press_banca.jpg   ->  Press banca con barra
-remo_pecho_apoyado.jpg   ->  Remo con mancuernas pecho apoyado
-press_militar_db.jpg   ->  Press militar con mancuernas sentado
-jalon.jpg   ->  Jalón al pecho
-elev_laterales.jpg   ->  Elevaciones laterales
-tri_bi.jpg   ->  Superserie tríceps polea + curl bíceps
-dominadas.jpg   ->  Dominadas
-press_inclinado_db.jpg   ->  Press inclinado con mancuernas
-remo_polea.jpg   ->  Remo en polea sentado
-contractora.jpg   ->  Contractora / aperturas en polea
-face_pull.jpg   ->  Face pull
-farmer.jpg   ->  Farmer carry (paseo del granjero)
-situp.jpg   ->  Sit-up mariposa
-goblet_cajon.jpg   ->  Sentadilla goblet a cajón
-hip_thrust.jpg   ->  Hip thrust
-step_up.jpg   ->  Step-up (subida a cajón)
-zancada_corta.jpg   ->  Zancada atrás a colchoneta
-ext_cuad.jpg   ->  Extensión de cuádriceps
-curl_fem.jpg   ->  Curl femoral tumbado
-gemelo.jpg   ->  Elevación de gemelo de pie
-core_p.jpg   ->  Dead bug + plancha lateral
-run_walk.jpg   ->  Carrera / trote-caminar
-bici_z2.jpg   ->  Bici estática Z2
-remo_erg.jpg   ->  Remo (ergómetro)
-z2_mix.jpg   ->  Cardio Z2 sin impacto
-estaciones_tec.jpg   ->  Circuito técnico de estaciones
+Cada ejercicio tiene su carpeta: img/<id>/0.jpg (posición inicial) y 1.jpg (final).
+La app alterna las dos para que parezca un GIF.
+Para usar tus propias fotos, sustitúyelas con el mismo nombre (mejor horizontales y <300 KB).
+Imágenes originales: Free Exercise DB (dominio público, Unlicense).

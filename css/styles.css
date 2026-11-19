@@ -14,6 +14,7 @@
   --cardio: #22a06b;
   --especifico: #e08a2e;
   --opcional: #6b7a89;
+  --movilidad: #8b6fd6;
   --radio: 14px;
 }
 
@@ -87,6 +88,7 @@ main { padding: 16px; max-width: 640px; margin: 0 auto; }
 .tipo-cardio { --color-tipo: var(--cardio); }
 .tipo-especifico { --color-tipo: var(--especifico); }
 .opcional { --color-tipo: var(--opcional); }
+.tipo-movilidad { --color-tipo: var(--movilidad); }
 
 .etiqueta {
   display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 20px;
@@ -113,8 +115,27 @@ main { padding: 16px; max-width: 640px; margin: 0 auto; }
   display: grid; place-items: center; color: var(--texto-suave); font-size: 13px;
 }
 .foto { position: relative; }
-/* La foto se pone ENCIMA del texto "Foto pendiente"; si no existe, el JS la quita y se ve el texto */
+/* Las fotos van una ENCIMA de otra ocupando todo el recuadro */
 .foto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+
+/* "GIF" casero: la foto 1 (final del movimiento) aparece y desaparece sobre la foto 0 */
+.foto.animada .frame-1 { animation: alternar 2.4s ease-in-out infinite; }
+@keyframes alternar {
+  0%, 40%   { opacity: 0; }
+  50%, 90%  { opacity: 1; }
+  100%      { opacity: 0; }
+}
+
+/* Puntos L M X J V S D de las sesiones diarias */
+.puntos { display: flex; gap: 6px; margin-top: 8px; }
+.puntos span {
+  width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center;
+  font-size: 11px; font-weight: 700; background: var(--tarjeta-2); color: var(--texto-suave);
+}
+.puntos span.lleno { background: var(--movilidad); color: white; }
+.puntos span.hoy { outline: 2px solid var(--acento); }
+.banda .puntos span { background: rgba(255,255,255,0.18); color: white; }
+.banda .puntos span.lleno { background: white; color: var(--movilidad); }
 .ejercicio .cuerpo { padding: 12px 14px 14px; }
 .ejercicio h3 { font-size: 17px; margin-bottom: 8px; }
 .datos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 8px; }

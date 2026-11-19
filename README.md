@@ -10,7 +10,7 @@ strongrace_app/
 ├── css/styles.css    → el aspecto (colores, tamaños, tarjetas)
 ├── js/app.js         → la lógica: carga el plan, decide qué pantalla toca y la pinta
 ├── data/plan.json    → EL PLAN. Para cambiar el entreno se cambia esto, no el código
-└── img/              → fotos de los ejercicios (ver img/LEEME.txt)
+└── img/<ejercicio>/  → 0.jpg (inicio) y 1.jpg (final) de cada ejercicio
 ```
 
 ## Probarla en el ordenador
@@ -54,6 +54,23 @@ Después, en GitHub: **Settings → Pages → Branch: main / (root) → Save**. 
 | Router con `#hash` (varias "pantallas" en una sola página) | `router()` |
 | Guardar datos en el móvil con `localStorage` | `estaHecha()`, `cambiarHecha()` |
 
+## Lección 2: fotos animadas y sesión diaria
+
+| Concepto | Dónde |
+|---|---|
+| Animaciones CSS con `@keyframes` (dos fotos que se alternan = "GIF" sin GIF) | `.foto.animada` en `styles.css` |
+| Funciones pequeñas reutilizables (`htmlFotos`, `puntosSemana`) | `app.js` |
+| Claves de `localStorage` con fecha (`diaria-MOV-2026-11-23`) para marcar cada día | `claveDiaria()` |
+| Trabajar con fechas locales (`isoLocal`, `sumarDias`) | `app.js` |
+
+**Cambiar una foto por una tuya:** sustituye `img/<ejercicio>/0.jpg` (posición inicial) y `1.jpg` (final),
+con el mismo nombre. Si solo pones `0.jpg`, se verá fija. Para ejercicios sin foto (`mov_gemelo`,
+`mov_gluteo_medio`, `estaciones_tec`) crea la carpeta y añade los archivos en `data/plan.json` → `"fotos"`.
+
+## Créditos
+
+Imágenes: [Free Exercise DB](https://github.com/yuhonas/free-exercise-db), dominio público (Unlicense).
+
 ## Retos
 
 1. **Fácil:** cambia `--acento` en `styles.css` por otro color.
@@ -63,7 +80,6 @@ Después, en GitHub: **Settings → Pages → Branch: main / (root) → Save**. 
 
 ## Próximas lecciones
 
-- **L2:** modo entreno paso a paso con temporizador de descansos.
 - **L3:** registro de cargas e historial.
 - **L4:** PWA: icono en la pantalla de inicio y que funcione sin cobertura.
 - **L5:** fotos propias de los ejercicios.

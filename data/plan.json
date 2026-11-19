@@ -4,7 +4,7 @@
     "fecha_carrera": "2027-04-10",
     "categoria": "Pareja mixta",
     "fase": "Fase 1: Base + pierna",
-    "version": 1,
+    "version": 2,
     "pesos_competicion_hombre": {
       "reverse_lunge": "25 kg",
       "sit_ups": "9 kg",
@@ -18,132 +18,281 @@
     "press_banca": {
       "nombre": "Press banca con barra",
       "cue": "Escápulas atrás y abajo, pies firmes, barra al esternón bajo.",
-      "foto": "img/press_banca.jpg"
+      "fotos": [
+        "img/press_banca/0.jpg",
+        "img/press_banca/1.jpg"
+      ]
     },
     "remo_pecho_apoyado": {
       "nombre": "Remo con mancuernas pecho apoyado",
       "cue": "Pecho en banco inclinado (30-45º). Sin bisagra de cadera: protege el ciático.",
-      "foto": "img/remo_pecho_apoyado.jpg"
+      "fotos": [
+        "img/remo_pecho_apoyado/0.jpg",
+        "img/remo_pecho_apoyado/1.jpg"
+      ]
     },
     "press_militar_db": {
       "nombre": "Press militar con mancuernas sentado",
       "cue": "Respaldo vertical, abdomen activo, no arquees la lumbar.",
-      "foto": "img/press_militar_db.jpg"
+      "fotos": [
+        "img/press_militar_db/0.jpg",
+        "img/press_militar_db/1.jpg"
+      ]
     },
     "jalon": {
       "nombre": "Jalón al pecho",
       "cue": "Lleva codos hacia las costillas, pecho alto.",
-      "foto": "img/jalon.jpg"
+      "fotos": [
+        "img/jalon/0.jpg",
+        "img/jalon/1.jpg"
+      ]
     },
     "elev_laterales": {
       "nombre": "Elevaciones laterales",
       "cue": "Codo ligeramente flexionado, sube hasta la altura del hombro.",
-      "foto": "img/elev_laterales.jpg"
+      "fotos": [
+        "img/elev_laterales/0.jpg",
+        "img/elev_laterales/1.jpg"
+      ]
     },
     "tri_bi": {
       "nombre": "Superserie tríceps polea + curl bíceps",
       "cue": "Sin descanso entre los dos, 60\" al acabar la pareja.",
-      "foto": "img/tri_bi.jpg"
+      "fotos": [
+        "img/tri_bi/0.jpg",
+        "img/tri_bi/1.jpg"
+      ]
     },
     "dominadas": {
       "nombre": "Dominadas",
       "cue": "Rango completo. Si haces >10 limpias, añade lastre.",
-      "foto": "img/dominadas.jpg"
+      "fotos": [
+        "img/dominadas/0.jpg",
+        "img/dominadas/1.jpg"
+      ]
     },
     "press_inclinado_db": {
       "nombre": "Press inclinado con mancuernas",
       "cue": "Banco a 30º, baja controlado 2\".",
-      "foto": "img/press_inclinado_db.jpg"
+      "fotos": [
+        "img/press_inclinado_db/0.jpg",
+        "img/press_inclinado_db/1.jpg"
+      ]
     },
     "remo_polea": {
       "nombre": "Remo en polea sentado",
-      "cue": "RODILLAS FLEXIONADAS y tronco quieto: no te estires hacia delante (tensa el ciático).",
-      "foto": "img/remo_polea.jpg"
+      "cue": "RODILLAS FLEXIONADAS (más que en la foto) y tronco quieto: no te estires hacia delante (tensa el ciático).",
+      "fotos": [
+        "img/remo_polea/0.jpg",
+        "img/remo_polea/1.jpg"
+      ]
     },
     "contractora": {
       "nombre": "Contractora / aperturas en polea",
       "cue": "Contracción de 1\" arriba.",
-      "foto": "img/contractora.jpg"
+      "fotos": [
+        "img/contractora/0.jpg",
+        "img/contractora/1.jpg"
+      ]
     },
     "face_pull": {
       "nombre": "Face pull",
       "cue": "Cuerda a la frente, codos altos.",
-      "foto": "img/face_pull.jpg"
+      "fotos": [
+        "img/face_pull/0.jpg",
+        "img/face_pull/1.jpg"
+      ]
     },
     "farmer": {
       "nombre": "Farmer carry (paseo del granjero)",
       "cue": "Hombros abajo, pasos cortos y rápidos. Coge las KB de un banco/cajón (no del suelo) hasta S4.",
-      "foto": "img/farmer.jpg"
+      "fotos": [
+        "img/farmer/0.jpg",
+        "img/farmer/1.jpg"
+      ]
     },
     "situp": {
       "nombre": "Sit-up mariposa",
       "cue": "Plantas juntas, peso detrás de la cabeza tocando el suelo, lo llevas al suelo delante de los pies (estándar de carrera).",
-      "foto": "img/situp.jpg"
+      "fotos": [
+        "img/situp/0.jpg",
+        "img/situp/1.jpg"
+      ]
     },
     "goblet_cajon": {
       "nombre": "Sentadilla goblet a cajón",
-      "cue": "Siéntate en el cajón sin rebotar. Nada de sentadilla profunda en Fase 1.",
-      "foto": "img/goblet_cajon.jpg"
+      "cue": "Igual que en la foto pero con una KB/mancuerna al pecho. Siéntate en el cajón sin rebotar. Nada de sentadilla profunda en Fase 1.",
+      "fotos": [
+        "img/goblet_cajon/0.jpg",
+        "img/goblet_cajon/1.jpg"
+      ]
     },
     "hip_thrust": {
       "nombre": "Hip thrust",
       "cue": "Barbilla recogida, aprieta glúteo 1\" arriba. Ideal para el glúteo sin tensar el nervio.",
-      "foto": "img/hip_thrust.jpg"
+      "fotos": [
+        "img/hip_thrust/0.jpg",
+        "img/hip_thrust/1.jpg"
+      ]
     },
     "step_up": {
       "nombre": "Step-up (subida a cajón)",
       "cue": "Empuja con la pierna de arriba, no impulses con la de abajo. Baja controlado.",
-      "foto": "img/step_up.jpg"
+      "fotos": [
+        "img/step_up/0.jpg",
+        "img/step_up/1.jpg"
+      ]
     },
     "zancada_corta": {
       "nombre": "Zancada atrás a colchoneta",
-      "cue": "La rodilla toca una colchoneta/step, no el suelo. Rango corto y cómodo.",
-      "foto": "img/zancada_corta.jpg"
+      "cue": "La rodilla toca una colchoneta/step, no el suelo (en la foto baja más). Rango corto y cómodo.",
+      "fotos": [
+        "img/zancada_corta/0.jpg",
+        "img/zancada_corta/1.jpg"
+      ]
     },
     "ext_cuad": {
       "nombre": "Extensión de cuádriceps",
       "cue": "Controla la bajada 2\".",
-      "foto": "img/ext_cuad.jpg"
+      "fotos": [
+        "img/ext_cuad/0.jpg",
+        "img/ext_cuad/1.jpg"
+      ]
     },
     "curl_fem": {
       "nombre": "Curl femoral tumbado",
       "cue": "Muy ligero. Solo si no despierta síntomas en glúteo/isquio.",
-      "foto": "img/curl_fem.jpg"
+      "fotos": [
+        "img/curl_fem/0.jpg",
+        "img/curl_fem/1.jpg"
+      ]
     },
     "gemelo": {
       "nombre": "Elevación de gemelo de pie",
       "cue": "Pausa de 1\" arriba y abajo.",
-      "foto": "img/gemelo.jpg"
+      "fotos": [
+        "img/gemelo/0.jpg",
+        "img/gemelo/1.jpg"
+      ]
     },
     "core_p": {
       "nombre": "Dead bug + plancha lateral",
       "cue": "Dead bug 8/lado lento + plancha lateral 20-40\"/lado. Lumbar pegada al suelo.",
-      "foto": "img/core_p.jpg"
+      "fotos": [
+        "img/core_p/0.jpg",
+        "img/core_p/1.jpg"
+      ]
     },
     "run_walk": {
       "nombre": "Carrera / trote-caminar",
       "cue": "Llano o cinta. FC Z2 (119-139 ppm): tienes que poder hablar.",
-      "foto": "img/run_walk.jpg"
+      "fotos": [
+        "img/run_walk/0.jpg",
+        "img/run_walk/1.jpg"
+      ]
     },
     "bici_z2": {
       "nombre": "Bici estática Z2",
       "cue": "FC 119-139. Sillín a la altura de siempre.",
-      "foto": "img/bici_z2.jpg"
+      "fotos": [
+        "img/bici_z2/0.jpg",
+        "img/bici_z2/1.jpg"
+      ]
     },
     "remo_erg": {
       "nombre": "Remo (ergómetro)",
       "cue": "Piernas-tronco-brazos. Si el remo molesta al glúteo, cámbialo por bici.",
-      "foto": "img/remo_erg.jpg"
+      "fotos": [
+        "img/remo_erg/0.jpg",
+        "img/remo_erg/1.jpg"
+      ]
     },
     "z2_mix": {
       "nombre": "Cardio Z2 sin impacto",
       "cue": "Bici, remo o caminata inclinada en cinta (8-10%, ~5,5 km/h). FC 119-139.",
-      "foto": "img/z2_mix.jpg"
+      "fotos": [
+        "img/z2_mix/0.jpg",
+        "img/z2_mix/1.jpg"
+      ]
     },
     "estaciones_tec": {
       "nombre": "Circuito técnico de estaciones",
       "cue": "Solo si tienes acceso a ski erg, air bike y wallballs (gimnasio en Mallorca).",
-      "foto": "img/estaciones_tec.jpg"
+      "fotos": []
+    },
+    "mov_pie": {
+      "nombre": "Planta del pie con pelota",
+      "cue": "Sentado en una silla. Rueda la pelota de talón a dedos; para 5\" en los puntos cargados.",
+      "fotos": [
+        "img/mov_pie/0.jpg",
+        "img/mov_pie/1.jpg"
+      ]
+    },
+    "mov_gemelo": {
+      "nombre": "Gemelo con pelota (rodilla doblada)",
+      "cue": "Sentado en una silla, cruza la pierna y aprieta la pelota contra el gemelo con las manos. NO en el suelo con las piernas estiradas.",
+      "fotos": []
+    },
+    "mov_cuad": {
+      "nombre": "Cuádriceps con pelota",
+      "cue": "Boca abajo sobre los antebrazos, pelota bajo el muslo. Recorre desde encima de la rodilla hasta la cadera.",
+      "fotos": [
+        "img/mov_cuad/0.jpg",
+        "img/mov_cuad/1.jpg"
+      ]
+    },
+    "mov_gluteo_medio": {
+      "nombre": "Glúteo medio con pelota contra la pared",
+      "cue": "Solo la zona ALTA y LATERAL del glúteo, justo bajo el hueso de la cadera. NUNCA el centro del glúteo ni junto al hueso de sentarte: por ahí pasa el ciático. Si notas hormigueo, fuera.",
+      "fotos": []
+    },
+    "mov_espalda": {
+      "nombre": "Espalda alta con pelota contra la pared",
+      "cue": "Entre los omóplatos, a un lado de la columna. En la foto es con rodillo en el suelo; con la pelota hazlo de pie contra la pared.",
+      "fotos": [
+        "img/mov_espalda/0.jpg",
+        "img/mov_espalda/1.jpg"
+      ]
+    },
+    "mov_gato": {
+      "nombre": "Gato-camello",
+      "cue": "Muy lento, vértebra a vértebra, respirando.",
+      "fotos": [
+        "img/mov_gato/0.jpg",
+        "img/mov_gato/1.jpg"
+      ]
+    },
+    "mov_flexor": {
+      "nombre": "Flexor de cadera en semi-arrodillado",
+      "cue": "Aprieta el glúteo de la pierna de atrás y mete la pelvis. Estira la parte delantera de la cadera, sin arquear la lumbar.",
+      "fotos": [
+        "img/mov_flexor/0.jpg",
+        "img/mov_flexor/1.jpg"
+      ]
+    },
+    "mov_libro": {
+      "nombre": "Libro abierto (rotación torácica)",
+      "cue": "Tumbado de lado con las rodillas dobladas a 90º. Abre el brazo de arriba hacia el otro lado siguiendo la mano con la mirada.",
+      "fotos": [
+        "img/mov_libro/0.jpg",
+        "img/mov_libro/1.jpg"
+      ]
+    },
+    "mov_nino": {
+      "nombre": "Postura del niño",
+      "cue": "Rodillas separadas, glúteos a los talones, brazos adelante. Respira hacia la espalda.",
+      "fotos": [
+        "img/mov_nino/0.jpg",
+        "img/mov_nino/1.jpg"
+      ]
+    },
+    "mov_relax": {
+      "nombre": "Rodillas al pecho + respiración",
+      "cue": "Boca arriba, abrazas las rodillas. Inspira 4\", espira 6\". Si tiras del glúteo, suelta un poco.",
+      "fotos": [
+        "img/mov_relax/0.jpg",
+        "img/mov_relax/1.jpg"
+      ]
     }
   },
   "semanas": [
@@ -371,6 +520,96 @@
               "nombre": "Cardio Z2 sin impacto",
               "prescripcion": "30' bici",
               "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "MOV",
+          "titulo": "Movilidad antes de dormir",
+          "tipo": "movilidad",
+          "diaria": true,
+          "duracion_min": 15,
+          "calentamiento": "Con la pelota: presión moderada (6/10 como mucho), respira lento. Nada de rodar isquios ni el centro del glúteo.",
+          "ejercicios": [
+            {
+              "id": "mov_pie",
+              "nombre": "Planta del pie con pelota",
+              "prescripcion": "1' por pie",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gemelo",
+              "nombre": "Gemelo con pelota (rodilla doblada)",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_cuad",
+              "nombre": "Cuádriceps con pelota",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gluteo_medio",
+              "nombre": "Glúteo medio con pelota contra la pared",
+              "prescripcion": "1' por lado",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": "Solo zona alta-lateral"
+            },
+            {
+              "id": "mov_espalda",
+              "nombre": "Espalda alta con pelota contra la pared",
+              "prescripcion": "1'",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gato",
+              "nombre": "Gato-camello",
+              "prescripcion": "10 lentas",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_flexor",
+              "nombre": "Flexor de cadera en semi-arrodillado",
+              "prescripcion": "45\" por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_libro",
+              "nombre": "Libro abierto (rotación torácica)",
+              "prescripcion": "8 por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_nino",
+              "nombre": "Postura del niño",
+              "prescripcion": "1'",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_relax",
+              "nombre": "Rodillas al pecho + respiración",
+              "prescripcion": "2'",
+              "carga": "inspira 4\" · espira 6\"",
               "descanso": "",
               "nota": ""
             }
@@ -622,6 +861,96 @@
               "nota": ""
             }
           ]
+        },
+        {
+          "id": "MOV",
+          "titulo": "Movilidad antes de dormir",
+          "tipo": "movilidad",
+          "diaria": true,
+          "duracion_min": 15,
+          "calentamiento": "Con la pelota: presión moderada (6/10 como mucho), respira lento. Nada de rodar isquios ni el centro del glúteo.",
+          "ejercicios": [
+            {
+              "id": "mov_pie",
+              "nombre": "Planta del pie con pelota",
+              "prescripcion": "1' por pie",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gemelo",
+              "nombre": "Gemelo con pelota (rodilla doblada)",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_cuad",
+              "nombre": "Cuádriceps con pelota",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gluteo_medio",
+              "nombre": "Glúteo medio con pelota contra la pared",
+              "prescripcion": "1' por lado",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": "Solo zona alta-lateral"
+            },
+            {
+              "id": "mov_espalda",
+              "nombre": "Espalda alta con pelota contra la pared",
+              "prescripcion": "1'",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gato",
+              "nombre": "Gato-camello",
+              "prescripcion": "10 lentas",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_flexor",
+              "nombre": "Flexor de cadera en semi-arrodillado",
+              "prescripcion": "45\" por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_libro",
+              "nombre": "Libro abierto (rotación torácica)",
+              "prescripcion": "8 por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_nino",
+              "nombre": "Postura del niño",
+              "prescripcion": "1'",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_relax",
+              "nombre": "Rodillas al pecho + respiración",
+              "prescripcion": "2'",
+              "carga": "inspira 4\" · espira 6\"",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
         }
       ]
     },
@@ -865,6 +1194,96 @@
               "nombre": "Cardio Z2 sin impacto",
               "prescripcion": "35' (remo/bici a tu gusto)",
               "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "MOV",
+          "titulo": "Movilidad antes de dormir",
+          "tipo": "movilidad",
+          "diaria": true,
+          "duracion_min": 15,
+          "calentamiento": "Con la pelota: presión moderada (6/10 como mucho), respira lento. Nada de rodar isquios ni el centro del glúteo.",
+          "ejercicios": [
+            {
+              "id": "mov_pie",
+              "nombre": "Planta del pie con pelota",
+              "prescripcion": "1' por pie",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gemelo",
+              "nombre": "Gemelo con pelota (rodilla doblada)",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_cuad",
+              "nombre": "Cuádriceps con pelota",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gluteo_medio",
+              "nombre": "Glúteo medio con pelota contra la pared",
+              "prescripcion": "1' por lado",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": "Solo zona alta-lateral"
+            },
+            {
+              "id": "mov_espalda",
+              "nombre": "Espalda alta con pelota contra la pared",
+              "prescripcion": "1'",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gato",
+              "nombre": "Gato-camello",
+              "prescripcion": "10 lentas",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_flexor",
+              "nombre": "Flexor de cadera en semi-arrodillado",
+              "prescripcion": "45\" por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_libro",
+              "nombre": "Libro abierto (rotación torácica)",
+              "prescripcion": "8 por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_nino",
+              "nombre": "Postura del niño",
+              "prescripcion": "1'",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_relax",
+              "nombre": "Rodillas al pecho + respiración",
+              "prescripcion": "2'",
+              "carga": "inspira 4\" · espira 6\"",
               "descanso": "",
               "nota": ""
             }
@@ -1116,6 +1535,96 @@
               "nota": ""
             }
           ]
+        },
+        {
+          "id": "MOV",
+          "titulo": "Movilidad antes de dormir",
+          "tipo": "movilidad",
+          "diaria": true,
+          "duracion_min": 15,
+          "calentamiento": "Con la pelota: presión moderada (6/10 como mucho), respira lento. Nada de rodar isquios ni el centro del glúteo.",
+          "ejercicios": [
+            {
+              "id": "mov_pie",
+              "nombre": "Planta del pie con pelota",
+              "prescripcion": "1' por pie",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gemelo",
+              "nombre": "Gemelo con pelota (rodilla doblada)",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_cuad",
+              "nombre": "Cuádriceps con pelota",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gluteo_medio",
+              "nombre": "Glúteo medio con pelota contra la pared",
+              "prescripcion": "1' por lado",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": "Solo zona alta-lateral"
+            },
+            {
+              "id": "mov_espalda",
+              "nombre": "Espalda alta con pelota contra la pared",
+              "prescripcion": "1'",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gato",
+              "nombre": "Gato-camello",
+              "prescripcion": "10 lentas",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_flexor",
+              "nombre": "Flexor de cadera en semi-arrodillado",
+              "prescripcion": "45\" por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_libro",
+              "nombre": "Libro abierto (rotación torácica)",
+              "prescripcion": "8 por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_nino",
+              "nombre": "Postura del niño",
+              "prescripcion": "1'",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_relax",
+              "nombre": "Rodillas al pecho + respiración",
+              "prescripcion": "2'",
+              "carga": "inspira 4\" · espira 6\"",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
         }
       ]
     },
@@ -1363,6 +1872,96 @@
               "nota": "Wallballs: baja solo hasta donde esté cómodo. Si no hay material: 30-40' Z2 sin impacto"
             }
           ]
+        },
+        {
+          "id": "MOV",
+          "titulo": "Movilidad antes de dormir",
+          "tipo": "movilidad",
+          "diaria": true,
+          "duracion_min": 15,
+          "calentamiento": "Con la pelota: presión moderada (6/10 como mucho), respira lento. Nada de rodar isquios ni el centro del glúteo.",
+          "ejercicios": [
+            {
+              "id": "mov_pie",
+              "nombre": "Planta del pie con pelota",
+              "prescripcion": "1' por pie",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gemelo",
+              "nombre": "Gemelo con pelota (rodilla doblada)",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_cuad",
+              "nombre": "Cuádriceps con pelota",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gluteo_medio",
+              "nombre": "Glúteo medio con pelota contra la pared",
+              "prescripcion": "1' por lado",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": "Solo zona alta-lateral"
+            },
+            {
+              "id": "mov_espalda",
+              "nombre": "Espalda alta con pelota contra la pared",
+              "prescripcion": "1'",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gato",
+              "nombre": "Gato-camello",
+              "prescripcion": "10 lentas",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_flexor",
+              "nombre": "Flexor de cadera en semi-arrodillado",
+              "prescripcion": "45\" por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_libro",
+              "nombre": "Libro abierto (rotación torácica)",
+              "prescripcion": "8 por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_nino",
+              "nombre": "Postura del niño",
+              "prescripcion": "1'",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_relax",
+              "nombre": "Rodillas al pecho + respiración",
+              "prescripcion": "2'",
+              "carga": "inspira 4\" · espira 6\"",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
         }
       ]
     },
@@ -1608,6 +2207,96 @@
               "carga": "ritmo cómodo, técnica primero",
               "descanso": "",
               "nota": "Wallballs: baja solo hasta donde esté cómodo. Si no hay material: 30-40' Z2 sin impacto"
+            }
+          ]
+        },
+        {
+          "id": "MOV",
+          "titulo": "Movilidad antes de dormir",
+          "tipo": "movilidad",
+          "diaria": true,
+          "duracion_min": 15,
+          "calentamiento": "Con la pelota: presión moderada (6/10 como mucho), respira lento. Nada de rodar isquios ni el centro del glúteo.",
+          "ejercicios": [
+            {
+              "id": "mov_pie",
+              "nombre": "Planta del pie con pelota",
+              "prescripcion": "1' por pie",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gemelo",
+              "nombre": "Gemelo con pelota (rodilla doblada)",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_cuad",
+              "nombre": "Cuádriceps con pelota",
+              "prescripcion": "1' por pierna",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gluteo_medio",
+              "nombre": "Glúteo medio con pelota contra la pared",
+              "prescripcion": "1' por lado",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": "Solo zona alta-lateral"
+            },
+            {
+              "id": "mov_espalda",
+              "nombre": "Espalda alta con pelota contra la pared",
+              "prescripcion": "1'",
+              "carga": "pelota de pinchos",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_gato",
+              "nombre": "Gato-camello",
+              "prescripcion": "10 lentas",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_flexor",
+              "nombre": "Flexor de cadera en semi-arrodillado",
+              "prescripcion": "45\" por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_libro",
+              "nombre": "Libro abierto (rotación torácica)",
+              "prescripcion": "8 por lado",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_nino",
+              "nombre": "Postura del niño",
+              "prescripcion": "1'",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            },
+            {
+              "id": "mov_relax",
+              "nombre": "Rodillas al pecho + respiración",
+              "prescripcion": "2'",
+              "carga": "inspira 4\" · espira 6\"",
+              "descanso": "",
+              "nota": ""
             }
           ]
         }
