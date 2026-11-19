@@ -1,0 +1,132 @@
+/* =========================================================
+   ESTILOS · mobile-first: diseñamos para el móvil y ya está.
+   Las "variables CSS" (--algo) se definen una vez y se reutilizan.
+   RETO 1: cambia --acento y mira cómo cambia toda la app.
+   ========================================================= */
+:root {
+  --fondo: #0b1118;
+  --tarjeta: #151e29;
+  --tarjeta-2: #1c2734;
+  --texto: #e8eef4;
+  --texto-suave: #8b98a6;
+  --acento: #5fb4ec;
+  --fuerza: #2f74c0;
+  --cardio: #22a06b;
+  --especifico: #e08a2e;
+  --opcional: #6b7a89;
+  --radio: 14px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: var(--fondo);
+  color: var(--texto);
+  line-height: 1.4;
+  /* Respeta el notch y la barra de abajo del iPhone */
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* ---------- Cabecera ---------- */
+.cabecera {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: calc(12px + env(safe-area-inset-top)) 16px 12px;
+  background: rgba(11, 17, 24, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #1f2a36;
+}
+.logo { font-weight: 900; font-style: italic; letter-spacing: 1px; font-size: 20px; }
+.logo span { color: var(--acento); margin-left: 4px; }
+.cuenta-atras { font-size: 13px; color: var(--texto-suave); text-align: right; }
+.cuenta-atras b { color: var(--acento); font-size: 18px; display: block; }
+
+main { padding: 16px; max-width: 640px; margin: 0 auto; }
+.cargando, .error { color: var(--texto-suave); padding: 40px 0; text-align: center; }
+.error { color: #ff8a80; }
+
+/* ---------- Vista semana ---------- */
+.nav-semana { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.nav-semana button {
+  background: var(--tarjeta); color: var(--texto); border: 0; border-radius: 10px;
+  width: 44px; height: 44px; font-size: 20px; cursor: pointer;
+}
+.nav-semana button:disabled { opacity: 0.3; }
+.nav-semana h1 { font-size: 22px; text-align: center; }
+.nav-semana small { display: block; color: var(--texto-suave); font-size: 13px; font-weight: 400; }
+
+.aviso {
+  background: var(--tarjeta-2); border-left: 4px solid var(--acento);
+  padding: 12px 14px; border-radius: 10px; margin-bottom: 12px; font-size: 14px;
+}
+.foco { font-weight: 700; margin-bottom: 2px; }
+.progreso { color: var(--texto-suave); font-size: 13px; margin: 14px 0 8px; }
+
+.tarjeta-sesion {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--tarjeta); border-radius: var(--radio);
+  padding: 14px; margin-bottom: 10px;
+  border-left: 6px solid var(--color-tipo, var(--acento));
+}
+.tarjeta-sesion:active { transform: scale(0.98); }
+.tarjeta-sesion .info { flex: 1; }
+.tarjeta-sesion h2 { font-size: 16px; }
+.tarjeta-sesion p { font-size: 13px; color: var(--texto-suave); }
+.check {
+  width: 28px; height: 28px; border-radius: 50%; border: 2px solid #3a4756;
+  display: grid; place-items: center; font-size: 15px; flex-shrink: 0;
+}
+.hecha .check { background: var(--cardio); border-color: var(--cardio); }
+.hecha h2 { text-decoration: line-through; opacity: 0.7; }
+
+/* El color de cada tipo de sesión se guarda en una variable */
+.tipo-fuerza { --color-tipo: var(--fuerza); }
+.tipo-cardio { --color-tipo: var(--cardio); }
+.tipo-especifico { --color-tipo: var(--especifico); }
+.opcional { --color-tipo: var(--opcional); }
+
+.etiqueta {
+  display: inline-block; font-size: 11px; padding: 1px 7px; border-radius: 20px;
+  background: var(--tarjeta-2); color: var(--texto-suave); margin-left: 6px; vertical-align: middle;
+}
+
+/* ---------- Vista sesión ---------- */
+.volver { display: inline-block; color: var(--acento); margin-bottom: 12px; font-size: 15px; }
+.banda {
+  background: var(--color-tipo, var(--acento)); border-radius: var(--radio);
+  padding: 16px; margin-bottom: 12px;
+}
+.banda h1 { font-size: 22px; }
+.banda p { opacity: 0.9; font-size: 14px; }
+
+.calentamiento { font-size: 14px; }
+
+.ejercicio {
+  background: var(--tarjeta); border-radius: var(--radio);
+  overflow: hidden; margin-bottom: 12px;
+}
+.foto {
+  aspect-ratio: 16 / 9; background: var(--tarjeta-2);
+  display: grid; place-items: center; color: var(--texto-suave); font-size: 13px;
+}
+.foto { position: relative; }
+/* La foto se pone ENCIMA del texto "Foto pendiente"; si no existe, el JS la quita y se ve el texto */
+.foto img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.ejercicio .cuerpo { padding: 12px 14px 14px; }
+.ejercicio h3 { font-size: 17px; margin-bottom: 8px; }
+.datos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 8px; }
+.dato { background: var(--tarjeta-2); border-radius: 10px; padding: 8px; }
+.dato span { display: block; font-size: 11px; color: var(--texto-suave); text-transform: uppercase; }
+.dato b { font-size: 14px; }
+.nota { font-size: 13px; color: #ffcf7a; margin-bottom: 4px; }
+.cue { font-size: 13px; color: var(--texto-suave); }
+
+.boton {
+  width: 100%; padding: 16px; border: 0; border-radius: var(--radio);
+  background: var(--acento); color: #04121e; font-size: 16px; font-weight: 700;
+  margin: 8px 0 24px; cursor: pointer;
+}
+.boton.hecha { background: var(--cardio); color: white; }

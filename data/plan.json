@@ -1,0 +1,1617 @@
+{
+  "meta": {
+    "carrera": "Strong Race Mallorca",
+    "fecha_carrera": "2027-04-10",
+    "categoria": "Pareja mixta",
+    "fase": "Fase 1: Base + pierna",
+    "version": 1,
+    "pesos_competicion_hombre": {
+      "reverse_lunge": "25 kg",
+      "sit_ups": "9 kg",
+      "wallballs": "9 kg",
+      "farmer_carry": "24 kg/mano · 100 m",
+      "dead_ball": "30 kg (confirmar mixta)",
+      "dumbbell_burpees": "10 kg/mano"
+    }
+  },
+  "ejercicios": {
+    "press_banca": {
+      "nombre": "Press banca con barra",
+      "cue": "Escápulas atrás y abajo, pies firmes, barra al esternón bajo.",
+      "foto": "img/press_banca.jpg"
+    },
+    "remo_pecho_apoyado": {
+      "nombre": "Remo con mancuernas pecho apoyado",
+      "cue": "Pecho en banco inclinado (30-45º). Sin bisagra de cadera: protege el ciático.",
+      "foto": "img/remo_pecho_apoyado.jpg"
+    },
+    "press_militar_db": {
+      "nombre": "Press militar con mancuernas sentado",
+      "cue": "Respaldo vertical, abdomen activo, no arquees la lumbar.",
+      "foto": "img/press_militar_db.jpg"
+    },
+    "jalon": {
+      "nombre": "Jalón al pecho",
+      "cue": "Lleva codos hacia las costillas, pecho alto.",
+      "foto": "img/jalon.jpg"
+    },
+    "elev_laterales": {
+      "nombre": "Elevaciones laterales",
+      "cue": "Codo ligeramente flexionado, sube hasta la altura del hombro.",
+      "foto": "img/elev_laterales.jpg"
+    },
+    "tri_bi": {
+      "nombre": "Superserie tríceps polea + curl bíceps",
+      "cue": "Sin descanso entre los dos, 60\" al acabar la pareja.",
+      "foto": "img/tri_bi.jpg"
+    },
+    "dominadas": {
+      "nombre": "Dominadas",
+      "cue": "Rango completo. Si haces >10 limpias, añade lastre.",
+      "foto": "img/dominadas.jpg"
+    },
+    "press_inclinado_db": {
+      "nombre": "Press inclinado con mancuernas",
+      "cue": "Banco a 30º, baja controlado 2\".",
+      "foto": "img/press_inclinado_db.jpg"
+    },
+    "remo_polea": {
+      "nombre": "Remo en polea sentado",
+      "cue": "RODILLAS FLEXIONADAS y tronco quieto: no te estires hacia delante (tensa el ciático).",
+      "foto": "img/remo_polea.jpg"
+    },
+    "contractora": {
+      "nombre": "Contractora / aperturas en polea",
+      "cue": "Contracción de 1\" arriba.",
+      "foto": "img/contractora.jpg"
+    },
+    "face_pull": {
+      "nombre": "Face pull",
+      "cue": "Cuerda a la frente, codos altos.",
+      "foto": "img/face_pull.jpg"
+    },
+    "farmer": {
+      "nombre": "Farmer carry (paseo del granjero)",
+      "cue": "Hombros abajo, pasos cortos y rápidos. Coge las KB de un banco/cajón (no del suelo) hasta S4.",
+      "foto": "img/farmer.jpg"
+    },
+    "situp": {
+      "nombre": "Sit-up mariposa",
+      "cue": "Plantas juntas, peso detrás de la cabeza tocando el suelo, lo llevas al suelo delante de los pies (estándar de carrera).",
+      "foto": "img/situp.jpg"
+    },
+    "goblet_cajon": {
+      "nombre": "Sentadilla goblet a cajón",
+      "cue": "Siéntate en el cajón sin rebotar. Nada de sentadilla profunda en Fase 1.",
+      "foto": "img/goblet_cajon.jpg"
+    },
+    "hip_thrust": {
+      "nombre": "Hip thrust",
+      "cue": "Barbilla recogida, aprieta glúteo 1\" arriba. Ideal para el glúteo sin tensar el nervio.",
+      "foto": "img/hip_thrust.jpg"
+    },
+    "step_up": {
+      "nombre": "Step-up (subida a cajón)",
+      "cue": "Empuja con la pierna de arriba, no impulses con la de abajo. Baja controlado.",
+      "foto": "img/step_up.jpg"
+    },
+    "zancada_corta": {
+      "nombre": "Zancada atrás a colchoneta",
+      "cue": "La rodilla toca una colchoneta/step, no el suelo. Rango corto y cómodo.",
+      "foto": "img/zancada_corta.jpg"
+    },
+    "ext_cuad": {
+      "nombre": "Extensión de cuádriceps",
+      "cue": "Controla la bajada 2\".",
+      "foto": "img/ext_cuad.jpg"
+    },
+    "curl_fem": {
+      "nombre": "Curl femoral tumbado",
+      "cue": "Muy ligero. Solo si no despierta síntomas en glúteo/isquio.",
+      "foto": "img/curl_fem.jpg"
+    },
+    "gemelo": {
+      "nombre": "Elevación de gemelo de pie",
+      "cue": "Pausa de 1\" arriba y abajo.",
+      "foto": "img/gemelo.jpg"
+    },
+    "core_p": {
+      "nombre": "Dead bug + plancha lateral",
+      "cue": "Dead bug 8/lado lento + plancha lateral 20-40\"/lado. Lumbar pegada al suelo.",
+      "foto": "img/core_p.jpg"
+    },
+    "run_walk": {
+      "nombre": "Carrera / trote-caminar",
+      "cue": "Llano o cinta. FC Z2 (119-139 ppm): tienes que poder hablar.",
+      "foto": "img/run_walk.jpg"
+    },
+    "bici_z2": {
+      "nombre": "Bici estática Z2",
+      "cue": "FC 119-139. Sillín a la altura de siempre.",
+      "foto": "img/bici_z2.jpg"
+    },
+    "remo_erg": {
+      "nombre": "Remo (ergómetro)",
+      "cue": "Piernas-tronco-brazos. Si el remo molesta al glúteo, cámbialo por bici.",
+      "foto": "img/remo_erg.jpg"
+    },
+    "z2_mix": {
+      "nombre": "Cardio Z2 sin impacto",
+      "cue": "Bici, remo o caminata inclinada en cinta (8-10%, ~5,5 km/h). FC 119-139.",
+      "foto": "img/z2_mix.jpg"
+    },
+    "estaciones_tec": {
+      "nombre": "Circuito técnico de estaciones",
+      "cue": "Solo si tienes acceso a ski erg, air bike y wallballs (gimnasio en Mallorca).",
+      "foto": "img/estaciones_tec.jpg"
+    }
+  },
+  "semanas": [
+    {
+      "numero": 1,
+      "inicio": "2026-11-23",
+      "fin": "2026-11-29",
+      "foco": "Toma de contacto",
+      "nota": "Volumen bajo. Objetivo: acabar la semana con la pierna igual o mejor que al empezar.",
+      "sesiones": [
+        {
+          "id": "T1",
+          "titulo": "Torso A (empuje)",
+          "tipo": "fuerza",
+          "duracion_min": 50,
+          "calentamiento": "5' remo o bici suave + 2x15 band pull-apart + 2x10 rotación externa con banda",
+          "ejercicios": [
+            {
+              "id": "press_banca",
+              "nombre": "Press banca con barra",
+              "prescripcion": "3x8",
+              "carga": "RIR 3",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "remo_pecho_apoyado",
+              "nombre": "Remo con mancuernas pecho apoyado",
+              "prescripcion": "3x10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "press_militar_db",
+              "nombre": "Press militar con mancuernas sentado",
+              "prescripcion": "3x10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "jalon",
+              "nombre": "Jalón al pecho",
+              "prescripcion": "3x12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "elev_laterales",
+              "nombre": "Elevaciones laterales",
+              "prescripcion": "3x15",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "tri_bi",
+              "nombre": "Superserie tríceps polea + curl bíceps",
+              "prescripcion": "2x12",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "P",
+          "titulo": "Pierna (amiga del ciático) + core",
+          "tipo": "fuerza",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + puente de glúteo 2x12 + clamshell con banda 2x15/lado + 10 sentadillas a cajón sin peso",
+          "ejercicios": [
+            {
+              "id": "goblet_cajon",
+              "nombre": "Sentadilla goblet a cajón",
+              "prescripcion": "3x10",
+              "carga": "12 kg · cajón alto (~55 cm)",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "hip_thrust",
+              "nombre": "Hip thrust",
+              "prescripcion": "3x12",
+              "carga": "ligero, RIR 4",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "step_up",
+              "nombre": "Step-up (subida a cajón)",
+              "prescripcion": "2x8/pierna",
+              "carga": "30 cm · sin peso",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "ext_cuad",
+              "nombre": "Extensión de cuádriceps",
+              "prescripcion": "2x15",
+              "carga": "RIR 2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "gemelo",
+              "nombre": "Elevación de gemelo de pie",
+              "prescripcion": "3x15",
+              "carga": "RIR 2",
+              "descanso": "45\"",
+              "nota": ""
+            },
+            {
+              "id": "core_p",
+              "nombre": "Dead bug + plancha lateral",
+              "prescripcion": "2 rondas",
+              "carga": "",
+              "descanso": "45\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M1",
+          "titulo": "Motor: carrera + máquina",
+          "tipo": "cardio",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + movilidad de tobillo y cadera (sin estirar isquios)",
+          "ejercicios": [
+            {
+              "id": "run_walk",
+              "nombre": "Carrera / trote-caminar",
+              "prescripcion": "8x (1' trote + 1' caminar) = 16'",
+              "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": "Llano o cinta. Nada de cuestas en Fase 1"
+            },
+            {
+              "id": "bici_z2",
+              "nombre": "Bici estática Z2",
+              "prescripcion": "15' Z2",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "T2",
+          "titulo": "Torso B (tirón) + carries + core",
+          "tipo": "fuerza",
+          "duracion_min": 55,
+          "calentamiento": "5' remo suave + 2x10 escápulas en barra + 1 serie ligera de dominadas",
+          "ejercicios": [
+            {
+              "id": "dominadas",
+              "nombre": "Dominadas",
+              "prescripcion": "3x máx-2",
+              "carga": "RIR 2",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "press_inclinado_db",
+              "nombre": "Press inclinado con mancuernas",
+              "prescripcion": "3x10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "remo_polea",
+              "nombre": "Remo en polea sentado",
+              "prescripcion": "3x12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "contractora",
+              "nombre": "Contractora / aperturas en polea",
+              "prescripcion": "2x15",
+              "carga": "RIR 1",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "face_pull",
+              "nombre": "Face pull",
+              "prescripcion": "3x15",
+              "carga": "ligero",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "farmer",
+              "nombre": "Farmer carry (paseo del granjero)",
+              "prescripcion": "3x30 m",
+              "carga": "16 kg/mano",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "situp",
+              "nombre": "Sit-up mariposa",
+              "prescripcion": "2x10",
+              "carga": "sin peso",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M2",
+          "titulo": "Opcional: Z2 sin impacto",
+          "tipo": "cardio",
+          "opcional": true,
+          "duracion_min": 30,
+          "calentamiento": "",
+          "ejercicios": [
+            {
+              "id": "z2_mix",
+              "nombre": "Cardio Z2 sin impacto",
+              "prescripcion": "30' bici",
+              "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "inicio": "2026-11-30",
+      "fin": "2026-12-06",
+      "foco": "Crear el hábito",
+      "nota": "Entra la zancada corta y el curl femoral muy ligero.",
+      "sesiones": [
+        {
+          "id": "T1",
+          "titulo": "Torso A (empuje)",
+          "tipo": "fuerza",
+          "duracion_min": 50,
+          "calentamiento": "5' remo o bici suave + 2x15 band pull-apart + 2x10 rotación externa con banda",
+          "ejercicios": [
+            {
+              "id": "press_banca",
+              "nombre": "Press banca con barra",
+              "prescripcion": "4x8",
+              "carga": "RIR 2",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "remo_pecho_apoyado",
+              "nombre": "Remo con mancuernas pecho apoyado",
+              "prescripcion": "3x10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "press_militar_db",
+              "nombre": "Press militar con mancuernas sentado",
+              "prescripcion": "3x10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "jalon",
+              "nombre": "Jalón al pecho",
+              "prescripcion": "3x12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "elev_laterales",
+              "nombre": "Elevaciones laterales",
+              "prescripcion": "3x15",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "tri_bi",
+              "nombre": "Superserie tríceps polea + curl bíceps",
+              "prescripcion": "3x12",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "P",
+          "titulo": "Pierna (amiga del ciático) + core",
+          "tipo": "fuerza",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + puente de glúteo 2x12 + clamshell con banda 2x15/lado + 10 sentadillas a cajón sin peso",
+          "ejercicios": [
+            {
+              "id": "goblet_cajon",
+              "nombre": "Sentadilla goblet a cajón",
+              "prescripcion": "3x10",
+              "carga": "16 kg · cajón alto",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "hip_thrust",
+              "nombre": "Hip thrust",
+              "prescripcion": "3x10",
+              "carga": "RIR 3",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "step_up",
+              "nombre": "Step-up (subida a cajón)",
+              "prescripcion": "3x8/pierna",
+              "carga": "30 cm · 2x6 kg",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "zancada_corta",
+              "nombre": "Zancada atrás a colchoneta",
+              "prescripcion": "2x6/pierna",
+              "carga": "sin peso, colchoneta alta (~30 cm)",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "ext_cuad",
+              "nombre": "Extensión de cuádriceps",
+              "prescripcion": "3x15",
+              "carga": "RIR 2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "curl_fem",
+              "nombre": "Curl femoral tumbado",
+              "prescripcion": "2x12",
+              "carga": "muy ligero, RIR 4",
+              "descanso": "60\"",
+              "nota": "Si notas el nervio, fuera"
+            },
+            {
+              "id": "gemelo",
+              "nombre": "Elevación de gemelo de pie",
+              "prescripcion": "3x15",
+              "carga": "RIR 2",
+              "descanso": "45\"",
+              "nota": ""
+            },
+            {
+              "id": "core_p",
+              "nombre": "Dead bug + plancha lateral",
+              "prescripcion": "3 rondas",
+              "carga": "",
+              "descanso": "45\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M1",
+          "titulo": "Motor: carrera + máquina",
+          "tipo": "cardio",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + movilidad de tobillo y cadera (sin estirar isquios)",
+          "ejercicios": [
+            {
+              "id": "run_walk",
+              "nombre": "Carrera / trote-caminar",
+              "prescripcion": "6x (2' trote + 1' caminar) = 18'",
+              "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": "Llano o cinta. Nada de cuestas en Fase 1"
+            },
+            {
+              "id": "remo_erg",
+              "nombre": "Remo (ergómetro)",
+              "prescripcion": "15' Z2",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "T2",
+          "titulo": "Torso B (tirón) + carries + core",
+          "tipo": "fuerza",
+          "duracion_min": 55,
+          "calentamiento": "5' remo suave + 2x10 escápulas en barra + 1 serie ligera de dominadas",
+          "ejercicios": [
+            {
+              "id": "dominadas",
+              "nombre": "Dominadas",
+              "prescripcion": "4x6-8",
+              "carga": "RIR 2",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "press_inclinado_db",
+              "nombre": "Press inclinado con mancuernas",
+              "prescripcion": "4x8-10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "remo_polea",
+              "nombre": "Remo en polea sentado",
+              "prescripcion": "3x12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "contractora",
+              "nombre": "Contractora / aperturas en polea",
+              "prescripcion": "3x12-15",
+              "carga": "RIR 1",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "face_pull",
+              "nombre": "Face pull",
+              "prescripcion": "3x15",
+              "carga": "ligero",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "farmer",
+              "nombre": "Farmer carry (paseo del granjero)",
+              "prescripcion": "3x40 m",
+              "carga": "20 kg/mano",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "situp",
+              "nombre": "Sit-up mariposa",
+              "prescripcion": "3x10",
+              "carga": "sin peso",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M2",
+          "titulo": "Opcional: Z2 sin impacto",
+          "tipo": "cardio",
+          "opcional": true,
+          "duracion_min": 30,
+          "calentamiento": "",
+          "ejercicios": [
+            {
+              "id": "z2_mix",
+              "nombre": "Cardio Z2 sin impacto",
+              "prescripcion": "15' remo + 15' bici",
+              "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "inicio": "2026-12-07",
+      "fin": "2026-12-13",
+      "foco": "Subir rango",
+      "nota": "La sentadilla baja a cajón a la altura del paralelo; step-up a 40 cm.",
+      "sesiones": [
+        {
+          "id": "T1",
+          "titulo": "Torso A (empuje)",
+          "tipo": "fuerza",
+          "duracion_min": 50,
+          "calentamiento": "5' remo o bici suave + 2x15 band pull-apart + 2x10 rotación externa con banda",
+          "ejercicios": [
+            {
+              "id": "press_banca",
+              "nombre": "Press banca con barra",
+              "prescripcion": "4x6-8",
+              "carga": "RIR 2",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "remo_pecho_apoyado",
+              "nombre": "Remo con mancuernas pecho apoyado",
+              "prescripcion": "4x8-10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "press_militar_db",
+              "nombre": "Press militar con mancuernas sentado",
+              "prescripcion": "3x8-10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "jalon",
+              "nombre": "Jalón al pecho",
+              "prescripcion": "3x10-12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "elev_laterales",
+              "nombre": "Elevaciones laterales",
+              "prescripcion": "3x12-15",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "tri_bi",
+              "nombre": "Superserie tríceps polea + curl bíceps",
+              "prescripcion": "3x12",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "P",
+          "titulo": "Pierna (amiga del ciático) + core",
+          "tipo": "fuerza",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + puente de glúteo 2x12 + clamshell con banda 2x15/lado + 10 sentadillas a cajón sin peso",
+          "ejercicios": [
+            {
+              "id": "goblet_cajon",
+              "nombre": "Sentadilla goblet a cajón",
+              "prescripcion": "3x10",
+              "carga": "16 kg · cajón a paralelo (~45 cm)",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "hip_thrust",
+              "nombre": "Hip thrust",
+              "prescripcion": "4x10",
+              "carga": "RIR 3",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "step_up",
+              "nombre": "Step-up (subida a cajón)",
+              "prescripcion": "3x8/pierna",
+              "carga": "40 cm · 2x8 kg",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "zancada_corta",
+              "nombre": "Zancada atrás a colchoneta",
+              "prescripcion": "3x8/pierna",
+              "carga": "sin peso, colchoneta alta",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "ext_cuad",
+              "nombre": "Extensión de cuádriceps",
+              "prescripcion": "3x12-15",
+              "carga": "RIR 2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "curl_fem",
+              "nombre": "Curl femoral tumbado",
+              "prescripcion": "2x12",
+              "carga": "muy ligero, RIR 4",
+              "descanso": "60\"",
+              "nota": "Si notas el nervio, fuera"
+            },
+            {
+              "id": "gemelo",
+              "nombre": "Elevación de gemelo de pie",
+              "prescripcion": "3x15",
+              "carga": "RIR 2",
+              "descanso": "45\"",
+              "nota": ""
+            },
+            {
+              "id": "core_p",
+              "nombre": "Dead bug + plancha lateral",
+              "prescripcion": "3 rondas",
+              "carga": "",
+              "descanso": "45\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M1",
+          "titulo": "Motor: carrera + máquina",
+          "tipo": "cardio",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + movilidad de tobillo y cadera (sin estirar isquios)",
+          "ejercicios": [
+            {
+              "id": "run_walk",
+              "nombre": "Carrera / trote-caminar",
+              "prescripcion": "5x (3' trote + 1' caminar) = 20'",
+              "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": "Llano o cinta. Nada de cuestas en Fase 1"
+            },
+            {
+              "id": "remo_erg",
+              "nombre": "Remo (ergómetro)",
+              "prescripcion": "20' Z2",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "T2",
+          "titulo": "Torso B (tirón) + carries + core",
+          "tipo": "fuerza",
+          "duracion_min": 55,
+          "calentamiento": "5' remo suave + 2x10 escápulas en barra + 1 serie ligera de dominadas",
+          "ejercicios": [
+            {
+              "id": "dominadas",
+              "nombre": "Dominadas",
+              "prescripcion": "4x6-8",
+              "carga": "RIR 2",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "press_inclinado_db",
+              "nombre": "Press inclinado con mancuernas",
+              "prescripcion": "4x8-10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "remo_polea",
+              "nombre": "Remo en polea sentado",
+              "prescripcion": "3x10-12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "contractora",
+              "nombre": "Contractora / aperturas en polea",
+              "prescripcion": "3x12-15",
+              "carga": "RIR 1",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "face_pull",
+              "nombre": "Face pull",
+              "prescripcion": "3x15",
+              "carga": "ligero",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "farmer",
+              "nombre": "Farmer carry (paseo del granjero)",
+              "prescripcion": "4x40 m",
+              "carga": "20 kg/mano",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "situp",
+              "nombre": "Sit-up mariposa",
+              "prescripcion": "3x12",
+              "carga": "5 kg",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M2",
+          "titulo": "Opcional: Z2 sin impacto",
+          "tipo": "cardio",
+          "opcional": true,
+          "duracion_min": 35,
+          "calentamiento": "",
+          "ejercicios": [
+            {
+              "id": "z2_mix",
+              "nombre": "Cardio Z2 sin impacto",
+              "prescripcion": "35' (remo/bici a tu gusto)",
+              "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "inicio": "2026-12-14",
+      "fin": "2026-12-20",
+      "foco": "Semana más cargada de la fase",
+      "nota": "Si llegas con la pierna en verde, aprieta un poco. Si no, repite S3.",
+      "sesiones": [
+        {
+          "id": "T1",
+          "titulo": "Torso A (empuje)",
+          "tipo": "fuerza",
+          "duracion_min": 50,
+          "calentamiento": "5' remo o bici suave + 2x15 band pull-apart + 2x10 rotación externa con banda",
+          "ejercicios": [
+            {
+              "id": "press_banca",
+              "nombre": "Press banca con barra",
+              "prescripcion": "4x6-8",
+              "carga": "RIR 1-2",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "remo_pecho_apoyado",
+              "nombre": "Remo con mancuernas pecho apoyado",
+              "prescripcion": "4x8-10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "press_militar_db",
+              "nombre": "Press militar con mancuernas sentado",
+              "prescripcion": "4x8-10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "jalon",
+              "nombre": "Jalón al pecho",
+              "prescripcion": "3x10-12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "elev_laterales",
+              "nombre": "Elevaciones laterales",
+              "prescripcion": "4x12-15",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "tri_bi",
+              "nombre": "Superserie tríceps polea + curl bíceps",
+              "prescripcion": "3x12-15",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "P",
+          "titulo": "Pierna (amiga del ciático) + core",
+          "tipo": "fuerza",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + puente de glúteo 2x12 + clamshell con banda 2x15/lado + 10 sentadillas a cajón sin peso",
+          "ejercicios": [
+            {
+              "id": "goblet_cajon",
+              "nombre": "Sentadilla goblet a cajón",
+              "prescripcion": "4x10",
+              "carga": "20 kg · paralelo",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "hip_thrust",
+              "nombre": "Hip thrust",
+              "prescripcion": "4x8",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "step_up",
+              "nombre": "Step-up (subida a cajón)",
+              "prescripcion": "3x8/pierna",
+              "carga": "40 cm · 2x10 kg",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "zancada_corta",
+              "nombre": "Zancada atrás a colchoneta",
+              "prescripcion": "3x8/pierna",
+              "carga": "2x6 kg, colchoneta media (~20 cm)",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "ext_cuad",
+              "nombre": "Extensión de cuádriceps",
+              "prescripcion": "3x12",
+              "carga": "RIR 2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "curl_fem",
+              "nombre": "Curl femoral tumbado",
+              "prescripcion": "3x12",
+              "carga": "muy ligero, RIR 4",
+              "descanso": "60\"",
+              "nota": "Si notas el nervio, fuera"
+            },
+            {
+              "id": "gemelo",
+              "nombre": "Elevación de gemelo de pie",
+              "prescripcion": "3x15",
+              "carga": "RIR 2",
+              "descanso": "45\"",
+              "nota": ""
+            },
+            {
+              "id": "core_p",
+              "nombre": "Dead bug + plancha lateral",
+              "prescripcion": "3 rondas",
+              "carga": "",
+              "descanso": "45\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M1",
+          "titulo": "Motor: carrera + máquina",
+          "tipo": "cardio",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + movilidad de tobillo y cadera (sin estirar isquios)",
+          "ejercicios": [
+            {
+              "id": "run_walk",
+              "nombre": "Carrera / trote-caminar",
+              "prescripcion": "4x (5' trote + 1' caminar) = 24'",
+              "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": "Llano o cinta. Nada de cuestas en Fase 1"
+            },
+            {
+              "id": "remo_erg",
+              "nombre": "Remo (ergómetro)",
+              "prescripcion": "3x 5' ritmo medio (RPE 6) / 2' suave",
+              "carga": "",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "T2",
+          "titulo": "Torso B (tirón) + carries + core",
+          "tipo": "fuerza",
+          "duracion_min": 55,
+          "calentamiento": "5' remo suave + 2x10 escápulas en barra + 1 serie ligera de dominadas",
+          "ejercicios": [
+            {
+              "id": "dominadas",
+              "nombre": "Dominadas",
+              "prescripcion": "4x6-8",
+              "carga": "lastre si >8",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "press_inclinado_db",
+              "nombre": "Press inclinado con mancuernas",
+              "prescripcion": "4x8",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "remo_polea",
+              "nombre": "Remo en polea sentado",
+              "prescripcion": "3x10-12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "contractora",
+              "nombre": "Contractora / aperturas en polea",
+              "prescripcion": "3x12-15",
+              "carga": "RIR 1",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "face_pull",
+              "nombre": "Face pull",
+              "prescripcion": "3x15",
+              "carga": "ligero",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "farmer",
+              "nombre": "Farmer carry (paseo del granjero)",
+              "prescripcion": "4x50 m",
+              "carga": "24 kg/mano",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "situp",
+              "nombre": "Sit-up mariposa",
+              "prescripcion": "3x12",
+              "carga": "5 kg",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M2",
+          "titulo": "Opcional: Z2 sin impacto",
+          "tipo": "cardio",
+          "opcional": true,
+          "duracion_min": 40,
+          "calentamiento": "",
+          "ejercicios": [
+            {
+              "id": "z2_mix",
+              "nombre": "Cardio Z2 sin impacto",
+              "prescripcion": "10' remo + 20' bici + 10' caminata inclinada",
+              "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "inicio": "2026-12-21",
+      "fin": "2026-12-27",
+      "foco": "Navidad: técnica",
+      "nota": "Bajamos volumen. Si estás en un gimnasio con ski, air bike y wallballs, aprende la técnica.",
+      "sesiones": [
+        {
+          "id": "T1",
+          "titulo": "Torso A (empuje)",
+          "tipo": "fuerza",
+          "duracion_min": 50,
+          "calentamiento": "5' remo o bici suave + 2x15 band pull-apart + 2x10 rotación externa con banda",
+          "ejercicios": [
+            {
+              "id": "press_banca",
+              "nombre": "Press banca con barra",
+              "prescripcion": "3x8",
+              "carga": "RIR 3",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "remo_pecho_apoyado",
+              "nombre": "Remo con mancuernas pecho apoyado",
+              "prescripcion": "3x10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "press_militar_db",
+              "nombre": "Press militar con mancuernas sentado",
+              "prescripcion": "3x10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "jalon",
+              "nombre": "Jalón al pecho",
+              "prescripcion": "2x12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "elev_laterales",
+              "nombre": "Elevaciones laterales",
+              "prescripcion": "3x15",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "tri_bi",
+              "nombre": "Superserie tríceps polea + curl bíceps",
+              "prescripcion": "2x12",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "P",
+          "titulo": "Pierna (amiga del ciático) + core",
+          "tipo": "fuerza",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + puente de glúteo 2x12 + clamshell con banda 2x15/lado + 10 sentadillas a cajón sin peso",
+          "ejercicios": [
+            {
+              "id": "goblet_cajon",
+              "nombre": "Sentadilla goblet a cajón",
+              "prescripcion": "3x10",
+              "carga": "16 kg · paralelo",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "hip_thrust",
+              "nombre": "Hip thrust",
+              "prescripcion": "3x10",
+              "carga": "RIR 3",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "step_up",
+              "nombre": "Step-up (subida a cajón)",
+              "prescripcion": "2x10/pierna",
+              "carga": "40 cm · 2x8 kg",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "zancada_corta",
+              "nombre": "Zancada atrás a colchoneta",
+              "prescripcion": "2x8/pierna",
+              "carga": "2x6 kg, colchoneta media",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "ext_cuad",
+              "nombre": "Extensión de cuádriceps",
+              "prescripcion": "2x15",
+              "carga": "RIR 2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "curl_fem",
+              "nombre": "Curl femoral tumbado",
+              "prescripcion": "2x12",
+              "carga": "muy ligero, RIR 4",
+              "descanso": "60\"",
+              "nota": "Si notas el nervio, fuera"
+            },
+            {
+              "id": "gemelo",
+              "nombre": "Elevación de gemelo de pie",
+              "prescripcion": "3x15",
+              "carga": "RIR 2",
+              "descanso": "45\"",
+              "nota": ""
+            },
+            {
+              "id": "core_p",
+              "nombre": "Dead bug + plancha lateral",
+              "prescripcion": "2 rondas",
+              "carga": "",
+              "descanso": "45\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M1",
+          "titulo": "Motor: carrera + máquina",
+          "tipo": "cardio",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + movilidad de tobillo y cadera (sin estirar isquios)",
+          "ejercicios": [
+            {
+              "id": "run_walk",
+              "nombre": "Carrera / trote-caminar",
+              "prescripcion": "20' continuo suave (si no sale: 4x 5'/1')",
+              "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": "Llano o cinta. Nada de cuestas en Fase 1"
+            },
+            {
+              "id": "remo_erg",
+              "nombre": "Remo (ergómetro)",
+              "prescripcion": "15' Z2",
+              "carga": "",
+              "descanso": "",
+              "nota": "Si hay air bike: 5x (1' medio + 1' suave)"
+            }
+          ]
+        },
+        {
+          "id": "T2",
+          "titulo": "Torso B (tirón) + carries + core",
+          "tipo": "fuerza",
+          "duracion_min": 55,
+          "calentamiento": "5' remo suave + 2x10 escápulas en barra + 1 serie ligera de dominadas",
+          "ejercicios": [
+            {
+              "id": "dominadas",
+              "nombre": "Dominadas",
+              "prescripcion": "3x6-8",
+              "carga": "RIR 2",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "press_inclinado_db",
+              "nombre": "Press inclinado con mancuernas",
+              "prescripcion": "3x10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "remo_polea",
+              "nombre": "Remo en polea sentado",
+              "prescripcion": "2x12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "contractora",
+              "nombre": "Contractora / aperturas en polea",
+              "prescripcion": "2x15",
+              "carga": "RIR 1",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "face_pull",
+              "nombre": "Face pull",
+              "prescripcion": "3x15",
+              "carga": "ligero",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "farmer",
+              "nombre": "Farmer carry (paseo del granjero)",
+              "prescripcion": "3x50 m",
+              "carga": "24 kg/mano",
+              "descanso": "90\"",
+              "nota": "Ya puedes coger las KB del suelo si no molesta"
+            },
+            {
+              "id": "situp",
+              "nombre": "Sit-up mariposa",
+              "prescripcion": "3x12",
+              "carga": "5 kg",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M2",
+          "titulo": "Navidad: técnica de estaciones",
+          "tipo": "especifico",
+          "opcional": true,
+          "duracion_min": 40,
+          "calentamiento": "8' suave en la máquina que haya + movilidad",
+          "ejercicios": [
+            {
+              "id": "estaciones_tec",
+              "nombre": "Circuito técnico de estaciones",
+              "prescripcion": "3 rondas: 250 m ski + 10 wallballs 6 kg + 10 cal air bike · 2' descanso",
+              "carga": "ritmo cómodo, técnica primero",
+              "descanso": "",
+              "nota": "Wallballs: baja solo hasta donde esté cómodo. Si no hay material: 30-40' Z2 sin impacto"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "inicio": "2026-12-28",
+      "fin": "2027-01-03",
+      "foco": "Primeras estaciones específicas",
+      "nota": "Primer test: 5x500 m de remo. Checkpoint para pasar a Fase 2.",
+      "sesiones": [
+        {
+          "id": "T1",
+          "titulo": "Torso A (empuje)",
+          "tipo": "fuerza",
+          "duracion_min": 50,
+          "calentamiento": "5' remo o bici suave + 2x15 band pull-apart + 2x10 rotación externa con banda",
+          "ejercicios": [
+            {
+              "id": "press_banca",
+              "nombre": "Press banca con barra",
+              "prescripcion": "4x6-8",
+              "carga": "RIR 1-2",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "remo_pecho_apoyado",
+              "nombre": "Remo con mancuernas pecho apoyado",
+              "prescripcion": "4x8-10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "press_militar_db",
+              "nombre": "Press militar con mancuernas sentado",
+              "prescripcion": "3x8-10",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "jalon",
+              "nombre": "Jalón al pecho",
+              "prescripcion": "3x10-12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "elev_laterales",
+              "nombre": "Elevaciones laterales",
+              "prescripcion": "4x12-15",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "tri_bi",
+              "nombre": "Superserie tríceps polea + curl bíceps",
+              "prescripcion": "3x12-15",
+              "carga": "RIR 1-2",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "P",
+          "titulo": "Pierna (amiga del ciático) + core",
+          "tipo": "fuerza",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + puente de glúteo 2x12 + clamshell con banda 2x15/lado + 10 sentadillas a cajón sin peso",
+          "ejercicios": [
+            {
+              "id": "goblet_cajon",
+              "nombre": "Sentadilla goblet a cajón",
+              "prescripcion": "4x8",
+              "carga": "24 kg · paralelo",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "hip_thrust",
+              "nombre": "Hip thrust",
+              "prescripcion": "4x8",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "step_up",
+              "nombre": "Step-up (subida a cajón)",
+              "prescripcion": "3x8/pierna",
+              "carga": "50 cm · 2x10 kg",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "zancada_corta",
+              "nombre": "Zancada atrás a colchoneta",
+              "prescripcion": "3x8/pierna",
+              "carga": "2x8 kg, colchoneta baja (~10 cm)",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "ext_cuad",
+              "nombre": "Extensión de cuádriceps",
+              "prescripcion": "3x12",
+              "carga": "RIR 2",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "curl_fem",
+              "nombre": "Curl femoral tumbado",
+              "prescripcion": "3x10-12",
+              "carga": "muy ligero, RIR 4",
+              "descanso": "60\"",
+              "nota": "Si notas el nervio, fuera"
+            },
+            {
+              "id": "gemelo",
+              "nombre": "Elevación de gemelo de pie",
+              "prescripcion": "3x15",
+              "carga": "RIR 2",
+              "descanso": "45\"",
+              "nota": ""
+            },
+            {
+              "id": "core_p",
+              "nombre": "Dead bug + plancha lateral",
+              "prescripcion": "3 rondas",
+              "carga": "",
+              "descanso": "45\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M1",
+          "titulo": "Motor: carrera + máquina",
+          "tipo": "cardio",
+          "duracion_min": 45,
+          "calentamiento": "5' bici suave + movilidad de tobillo y cadera (sin estirar isquios)",
+          "ejercicios": [
+            {
+              "id": "run_walk",
+              "nombre": "Carrera / trote-caminar",
+              "prescripcion": "25' continuo Z2 + 4x 20\" progresivos (no sprint)",
+              "carga": "Z2 (119-139 ppm)",
+              "descanso": "",
+              "nota": "Llano o cinta. Nada de cuestas en Fase 1"
+            },
+            {
+              "id": "remo_erg",
+              "nombre": "Remo (ergómetro)",
+              "prescripcion": "5x 500 m ritmo de carrera (RPE 7)",
+              "carga": "",
+              "descanso": "",
+              "nota": "1'30\" descanso. Apunta los tiempos"
+            }
+          ]
+        },
+        {
+          "id": "T2",
+          "titulo": "Torso B (tirón) + carries + core",
+          "tipo": "fuerza",
+          "duracion_min": 55,
+          "calentamiento": "5' remo suave + 2x10 escápulas en barra + 1 serie ligera de dominadas",
+          "ejercicios": [
+            {
+              "id": "dominadas",
+              "nombre": "Dominadas",
+              "prescripcion": "4x6-8",
+              "carga": "RIR 1-2",
+              "descanso": "2'",
+              "nota": ""
+            },
+            {
+              "id": "press_inclinado_db",
+              "nombre": "Press inclinado con mancuernas",
+              "prescripcion": "4x8",
+              "carga": "RIR 2",
+              "descanso": "90\"",
+              "nota": ""
+            },
+            {
+              "id": "remo_polea",
+              "nombre": "Remo en polea sentado",
+              "prescripcion": "3x10-12",
+              "carga": "RIR 2",
+              "descanso": "75\"",
+              "nota": ""
+            },
+            {
+              "id": "contractora",
+              "nombre": "Contractora / aperturas en polea",
+              "prescripcion": "3x12-15",
+              "carga": "RIR 1",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "face_pull",
+              "nombre": "Face pull",
+              "prescripcion": "3x15",
+              "carga": "ligero",
+              "descanso": "60\"",
+              "nota": ""
+            },
+            {
+              "id": "farmer",
+              "nombre": "Farmer carry (paseo del granjero)",
+              "prescripcion": "4x50 m",
+              "carga": "24 kg/mano",
+              "descanso": "90\"",
+              "nota": "Del suelo"
+            },
+            {
+              "id": "situp",
+              "nombre": "Sit-up mariposa",
+              "prescripcion": "3x15",
+              "carga": "9 kg",
+              "descanso": "60\"",
+              "nota": ""
+            }
+          ]
+        },
+        {
+          "id": "M2",
+          "titulo": "Navidad: técnica de estaciones",
+          "tipo": "especifico",
+          "opcional": true,
+          "duracion_min": 40,
+          "calentamiento": "8' suave en la máquina que haya + movilidad",
+          "ejercicios": [
+            {
+              "id": "estaciones_tec",
+              "nombre": "Circuito técnico de estaciones",
+              "prescripcion": "4 rondas: 300 m ski + 12 wallballs 9 kg + 12 cal air bike + 200 m trote · 2' descanso",
+              "carga": "ritmo cómodo, técnica primero",
+              "descanso": "",
+              "nota": "Wallballs: baja solo hasta donde esté cómodo. Si no hay material: 30-40' Z2 sin impacto"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

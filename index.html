@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- <head> = información SOBRE la página (no se ve). -->
+  <meta charset="UTF-8">
+  <!-- Sin esta línea, el móvil mostraría la web "en miniatura" como si fuera un PC -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- Color de la barra del navegador en el móvil -->
+  <meta name="theme-color" content="#0b1118">
+  <title>Strong Race · Entrenos</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- <body> = lo que se ve. Casi todo lo pinta JavaScript dentro de <main id="app"> -->
+  <header class="cabecera">
+    <a href="#/" class="logo">STRONG<span>RACE</span></a>
+    <div class="cuenta-atras" id="cuenta-atras"></div>
+  </header>
+
+  <main id="app">
+    <p class="cargando">Cargando plan…</p>
+  </main>
+
+  <!-- "defer" = ejecuta el script cuando el HTML ya está cargado -->
+  <script src="js/app.js" defer></script>
+</body>
+</html>
